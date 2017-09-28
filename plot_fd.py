@@ -19,6 +19,7 @@ def plot_fd(fname, subid, fname2save, gridline_width = 0.5):
     import numpy as np
     import matplotlib.pyplot as plt
 
+    print("test")
     # read in fd file as np.array
     fd = np.loadtxt(fname)
 

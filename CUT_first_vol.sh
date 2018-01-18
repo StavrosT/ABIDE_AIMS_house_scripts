@@ -17,7 +17,7 @@ cd $rootpath
 #
 for i in $List
 do
-	#cd into individual directorie
+	#cd into individual directory
 	subpath=$rootpath/$i
 	cd $subpath
 
@@ -25,7 +25,7 @@ do
 	tmin=8
 	tsize=612
 
-
+	#Cut Volumes
 	fslroi rest.nii.gz Erest.nii.gz $tmin $tsize
 
 	#Are there the desired number of volumes?
@@ -38,7 +38,7 @@ do
 		then
 		echo "${i} has 612 in Erest.nii.gz"
 	else
-		echo "ERROR in ${1}"
+		echo "ERROR in ${i}"
 	fi
 	cd $rootpath
 done

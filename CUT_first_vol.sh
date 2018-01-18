@@ -14,7 +14,7 @@ rootpath=/Users/stavrostrakoshis/Documents/MRC_AIMS/rsfMRI/raw_data
 #cd into path
 cd $rootpath
 
-#
+#Loop starts
 for i in $List
 do
 	#cd into individual directory
@@ -30,7 +30,8 @@ do
 
 	#Are there the desired number of volumes?
 	NVOL=$(3dinfo -nv Erest.nii.gz)
-
+	
+	#Make this a string
 	ENVOL=$(echo "${NVOL}")
 
 	#Doublecheck
@@ -41,5 +42,5 @@ do
 		echo "ERROR in ${i}"
 	fi
 	cd $rootpath
-done
+done  
 

@@ -23,6 +23,7 @@ CUT_first_vol.sh - Removes first N volumes from AIMS rsfmri. <br />
 Change_names.sh - Changes names <br />
 export_good_stuff.sh - Extracts useful output from the preprocessed directories.__ <br />
 FCN.m - IGNORE it - Attempt to make Functional Connectivity script.__ <br />
+Fractal_loop.m - Calculates Hurst on Glasser parcels. <br />
 Hmap_Loop.m - Loops over sucjects and calls compute_hmap.m.__ <br />
 Male_hurst_analysis_MRC.py - Mass Univariate T-test on parcellated Hurst in AIMS.__ <br />
 Male_hurst_analysis_USM_Scans.py - Mass Univariate T-test on Hurst in ABIDE_1 USM.__ <br />

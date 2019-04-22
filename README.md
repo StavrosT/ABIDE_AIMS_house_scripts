@@ -6,12 +6,12 @@ These scripts usually use: <br />
 Standard bash commands <br />
 Various afni programs <br />
 Various fsl programs <br />
-Python2 and 3 and various librarys within there - including all anacoda libraries. <br />
+Python2 and 3 and various libraries within there - including all anacoda libraries. <br />
 Some matlab and SPM12 scripts <br />
 
 
-These scripts are meant to be complementary to speedyppX.py, which is our main preprocessing pipeline. <br />
-
+These scripts are meant to be complementary to speedyppX.py, which is our main preprocessing tool. <br />
+Ref: <br />
 De-noising module adapted for motion artifact removal by Patel, AX. (2014). <br />
 
 

@@ -17,6 +17,7 @@ De-noising module adapted for motion artifact removal by Patel, AX. (2014). <br 
 
 Alphabetical list of scripts and short bio: <br />
 
+3dResample_loop.sh - Resamples an atlas TO the rest_pp. <br />
 BET_runsecondrun.sh - Extensive bet, other than the speedy default.__ <br />
 Clean_up_beforedoing_speedy.sh - Deprecated, use Remove_after_speedy.sh for similar things.__ <br />
 CUT_first_vol.sh - Removes first N volumes from AIMS rsfmri. <br />

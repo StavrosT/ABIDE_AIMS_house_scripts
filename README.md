@@ -17,14 +17,15 @@ De-noising module adapted for motion artifact removal by Patel, AX. (2014). <br 
 
 Alphabetical list of scripts and short bio: <br />
 
-3dResample_loop.sh - Resamples an atlas TO the rest_pp, Fractal_loop depends on this. <br />
+3dResample_loop.sh - Resamples an atlas TO the rest_pp, Fractal_loop depends on this._ <br />
 BET_runsecondrun.sh - Extensive bet, other than the speedy default.__ <br />
 Clean_up_beforedoing_speedy.sh - Deprecated, use Remove_after_speedy.sh for similar things.__ <br />
-CUT_first_vol.sh - Removes first N volumes from AIMS rsfmri. <br />
-Change_names.sh - Changes names <br />
+CUT_first_vol.sh - Removes first N volumes from AIMS rsfmri._ <br />
+Change_names.sh - Changes names._ <br />
+connectivity_func.sh - Uses 3dDegreeCentrality, with template or whole brain - bash function._ <br />
 export_good_stuff.sh - Extracts useful output from the preprocessed directories.__ <br />
 FCN.m - IGNORE it - Attempt to make Functional Connectivity script.__ <br />
-Fractal_loop.m - Calculates Hurst on Glasser parcels. <br />
+Fractal_loop.m - Calculates Hurst on Glasser parcels._ <br />
 Hmap_Loop.m - Loops over sucjects and calls compute_hmap.m.__ <br />
 Male_hurst_analysis_MRC.py - Mass Univariate T-test on parcellated Hurst in AIMS.__ <br />
 Male_hurst_analysis_USM_Scans.py - Mass Univariate T-test on Hurst in ABIDE_1 USM.__ <br />

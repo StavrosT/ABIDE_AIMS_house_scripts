@@ -31,6 +31,7 @@ Male_hurst_analysis_MRC.py - Mass Univariate T-test on parcellated Hurst in AIMS
 Male_hurst_analysis_USM_Scans.py - Mass Univariate T-test on Hurst in ABIDE_1 USM.__ <br />
 Mean_FD_looper.sh - extracts Mean_FD from rest_motion_fd_summary_stats.csv.__ <br />
 Melodic_DualR.sh - Dual regression with FSL.__ <br />
+MultiInnerJoin.m - Does Multiple Inner Joins of tables in Matlab.__ <br /> 
 N_vols.sh - Finds number of volumes from ABIDE data.__ <br />
 plot_fd_dvars.py - Plots fd and dvars.__ <br />
 plot_fd_dvars_looper.sh - Loops plot_fd_dvars.py on ABIDE data.__ <br />
